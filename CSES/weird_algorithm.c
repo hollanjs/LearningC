@@ -4,6 +4,7 @@
 #include <time.h>
 #include "weird_algorithm.h"
 
+
 /*************************************************************************************************
 
 	Consider an algorithm that takes as input a positive integer n. If n is even,
