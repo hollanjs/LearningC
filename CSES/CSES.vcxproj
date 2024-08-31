@@ -129,13 +129,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CSES.c" />
+    <ClCompile Include="increasing_array.c" />
     <ClCompile Include="missing_num.c" />
     <ClCompile Include="myutils.c" />
+    <ClCompile Include="number_spiral.c" />
+    <ClCompile Include="permutations.c" />
+    <ClCompile Include="repetitions.c" />
+    <ClCompile Include="two_knights.c" />
+    <ClCompile Include="two_sets.c" />
     <ClCompile Include="weird_algorithm.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="increasing_array.h" />
     <ClInclude Include="missing_num.h" />
     <ClInclude Include="myutils.h" />
+    <ClInclude Include="number_spiral.h" />
+    <ClInclude Include="permutations.h" />
+    <ClInclude Include="repetitions.h" />
+    <ClInclude Include="two_knights.h" />
+    <ClInclude Include="two_sets.h" />
     <ClInclude Include="weird_algorithm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

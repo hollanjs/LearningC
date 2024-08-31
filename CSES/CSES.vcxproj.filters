@@ -27,6 +27,24 @@
     <ClCompile Include="myutils.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="repetitions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="increasing_array.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="permutations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="number_spiral.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="two_knights.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="two_sets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="missing_num.h">
@@ -36,6 +54,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="myutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="repetitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="increasing_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="permutations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="number_spiral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="two_knights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="two_sets.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
