@@ -131,7 +131,7 @@
     <ClCompile Include="CSES.c" />
     <ClCompile Include="increasing_array.c" />
     <ClCompile Include="missing_num.c" />
-    <ClCompile Include="myutils.c" />
+    <ClCompile Include="console_utils.c" />
     <ClCompile Include="number_spiral.c" />
     <ClCompile Include="permutations.c" />
     <ClCompile Include="repetitions.c" />
@@ -142,7 +142,7 @@
   <ItemGroup>
     <ClInclude Include="increasing_array.h" />
     <ClInclude Include="missing_num.h" />
-    <ClInclude Include="myutils.h" />
+    <ClInclude Include="console_utils.h" />
     <ClInclude Include="number_spiral.h" />
     <ClInclude Include="permutations.h" />
     <ClInclude Include="repetitions.h" />

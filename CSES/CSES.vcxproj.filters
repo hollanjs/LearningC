@@ -13,66 +13,78 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\IntroductoryProblems">
+      <UniqueIdentifier>{8161a6a7-f1cd-4e57-b324-20254fbe186d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{e6110245-5148-44ce-9ab8-38b862377bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntroductoryProblems">
+      <UniqueIdentifier>{734e4d05-1489-457f-bf47-055075ac68d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{2afd26b5-98e6-4c40-88c7-dcd21183d647}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CSES.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="weird_algorithm.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="increasing_array.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
     </ClCompile>
     <ClCompile Include="missing_num.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="myutils.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="repetitions.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="increasing_array.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="permutations.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\IntroductoryProblems</Filter>
     </ClCompile>
     <ClCompile Include="number_spiral.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="permutations.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="repetitions.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
     </ClCompile>
     <ClCompile Include="two_knights.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\IntroductoryProblems</Filter>
     </ClCompile>
     <ClCompile Include="two_sets.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="weird_algorithm.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="console_utils.c">
+      <Filter>Source Files\Utilities</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="missing_num.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="weird_algorithm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="myutils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="repetitions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="increasing_array.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\IntroductoryProblems</Filter>
     </ClInclude>
-    <ClInclude Include="permutations.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="missing_num.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
     </ClInclude>
     <ClInclude Include="number_spiral.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="permutations.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="repetitions.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
     </ClInclude>
     <ClInclude Include="two_knights.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\IntroductoryProblems</Filter>
     </ClInclude>
     <ClInclude Include="two_sets.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="weird_algorithm.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="console_utils.h">
+      <Filter>Header Files\Utilities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
