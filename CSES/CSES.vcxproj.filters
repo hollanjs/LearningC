@@ -18,5 +18,25 @@
     <ClCompile Include="CSES.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="weird_algorithm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="missing_num.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="missing_num.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="weird_algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

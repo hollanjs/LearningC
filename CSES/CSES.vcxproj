@@ -129,6 +129,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CSES.c" />
+    <ClCompile Include="missing_num.c" />
+    <ClCompile Include="myutils.c" />
+    <ClCompile Include="weird_algorithm.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="missing_num.h" />
+    <ClInclude Include="myutils.h" />
+    <ClInclude Include="weird_algorithm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
