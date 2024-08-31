@@ -57,6 +57,39 @@
     <ClCompile Include="console_utils.c">
       <Filter>Source Files\Utilities</Filter>
     </ClCompile>
+    <ClCompile Include="apple_division.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_strings.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="chessboard_and_queens.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="coin_piles.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="creating_strings.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="digit_queries.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="gray_code.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="grid_paths.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="palindrome_reorder.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="tower_of_hanoi.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
+    <ClCompile Include="trailing_zeros.c">
+      <Filter>Source Files\IntroductoryProblems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="increasing_array.h">
@@ -85,6 +118,39 @@
     </ClInclude>
     <ClInclude Include="console_utils.h">
       <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_strings.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="trailing_zeros.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="coin_piles.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="palindrome_reorder.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="gray_code.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="tower_of_hanoi.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="creating_strings.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="apple_division.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="chessboard_and_queens.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_queries.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="grid_paths.h">
+      <Filter>Header Files\IntroductoryProblems</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

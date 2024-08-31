@@ -128,24 +128,46 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="apple_division.c" />
+    <ClCompile Include="bit_strings.c" />
+    <ClCompile Include="chessboard_and_queens.c" />
+    <ClCompile Include="coin_piles.c" />
+    <ClCompile Include="creating_strings.c" />
     <ClCompile Include="CSES.c" />
+    <ClCompile Include="digit_queries.c" />
+    <ClCompile Include="gray_code.c" />
+    <ClCompile Include="grid_paths.c" />
     <ClCompile Include="increasing_array.c" />
     <ClCompile Include="missing_num.c" />
     <ClCompile Include="console_utils.c" />
     <ClCompile Include="number_spiral.c" />
+    <ClCompile Include="palindrome_reorder.c" />
     <ClCompile Include="permutations.c" />
     <ClCompile Include="repetitions.c" />
+    <ClCompile Include="tower_of_hanoi.c" />
+    <ClCompile Include="trailing_zeros.c" />
     <ClCompile Include="two_knights.c" />
     <ClCompile Include="two_sets.c" />
     <ClCompile Include="weird_algorithm.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="apple_division.h" />
+    <ClInclude Include="bit_strings.h" />
+    <ClInclude Include="chessboard_and_queens.h" />
+    <ClInclude Include="coin_piles.h" />
+    <ClInclude Include="creating_strings.h" />
+    <ClInclude Include="digit_queries.h" />
+    <ClInclude Include="gray_code.h" />
+    <ClInclude Include="grid_paths.h" />
     <ClInclude Include="increasing_array.h" />
     <ClInclude Include="missing_num.h" />
     <ClInclude Include="console_utils.h" />
     <ClInclude Include="number_spiral.h" />
+    <ClInclude Include="palindrome_reorder.h" />
     <ClInclude Include="permutations.h" />
     <ClInclude Include="repetitions.h" />
+    <ClInclude Include="tower_of_hanoi.h" />
+    <ClInclude Include="trailing_zeros.h" />
     <ClInclude Include="two_knights.h" />
     <ClInclude Include="two_sets.h" />
     <ClInclude Include="weird_algorithm.h" />
