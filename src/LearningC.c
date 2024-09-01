@@ -35,14 +35,14 @@ int main() {
 	//test_temp_conversions();
 
 	/*CSES PROBLEMS*/
-	run_weird_algorithm();
-	printf("\n\n*************************************************************\n\n");
-	
-	run_missing_num();	
-	printf("\n\n*************************************************************\n\n");
-
-	//run_repetitions();		/*Needs implementation*/
+	//run_weird_algorithm();
 	//printf("\n\n*************************************************************\n\n");
+	
+	//run_missing_num();	
+	//printf("\n\n*************************************************************\n\n");
+
+	run_repetitions();		/*Needs implementation*/
+	printf("\n\n*************************************************************\n\n");
 
 	//run_increasing_array();	/*Needs implementation*/
 	//printf("\n\n*************************************************************\n\n");
