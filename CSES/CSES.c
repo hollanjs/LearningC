@@ -3,7 +3,9 @@
 #include <math.h>
 #include <time.h>
 #include <string.h>
+#include <assert.h>
 
+#include "convert.h"
 #include "console_utils.h"
 
 //Problem sets
@@ -29,11 +31,15 @@
 
 
 int main() {	
-	run_weird_algorithm();
-	printf("\n\n*************************************************************\n\n");
+	/*UTILITIES*/
+	test_temp_conversions();
+
+	/*CSES PROBLEMS*/
+	//run_weird_algorithm();
+	//printf("\n\n*************************************************************\n\n");
 	
-	run_missing_num();	
-	printf("\n\n*************************************************************\n\n");
+	//run_missing_num();	
+	//printf("\n\n*************************************************************\n\n");
 
 	//run_repetitions();		/*Needs implementation*/
 	//printf("\n\n*************************************************************\n\n");

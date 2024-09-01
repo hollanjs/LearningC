@@ -90,6 +90,9 @@
     <ClCompile Include="trailing_zeros.c">
       <Filter>Source Files\IntroductoryProblems</Filter>
     </ClCompile>
+    <ClCompile Include="convert.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="increasing_array.h">
@@ -151,6 +154,9 @@
     </ClInclude>
     <ClInclude Include="grid_paths.h">
       <Filter>Header Files\IntroductoryProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="convert.h">
+      <Filter>Header Files\Utilities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

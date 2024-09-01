@@ -132,6 +132,7 @@
     <ClCompile Include="bit_strings.c" />
     <ClCompile Include="chessboard_and_queens.c" />
     <ClCompile Include="coin_piles.c" />
+    <ClCompile Include="convert.c" />
     <ClCompile Include="creating_strings.c" />
     <ClCompile Include="CSES.c" />
     <ClCompile Include="digit_queries.c" />
@@ -155,6 +156,7 @@
     <ClInclude Include="bit_strings.h" />
     <ClInclude Include="chessboard_and_queens.h" />
     <ClInclude Include="coin_piles.h" />
+    <ClInclude Include="convert.h" />
     <ClInclude Include="creating_strings.h" />
     <ClInclude Include="digit_queries.h" />
     <ClInclude Include="gray_code.h" />
