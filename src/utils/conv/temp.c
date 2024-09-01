@@ -1,9 +1,7 @@
-#include "convert.h"
+#include "temp.h"
 
 
-#define KELVIN_C_DELTA			273.15
-#define FT_TO_METER_MULTIPLIER	0.3048
-#define GAL_TO_LITER_MULTIPLIER	3.785411784
+#define KELVIN_C_DELTA	273.15
 
 
 float fahrenheit_to_celsius(float temp) {

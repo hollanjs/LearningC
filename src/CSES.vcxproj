@@ -24,6 +24,7 @@
     <ProjectGuid>{dd355924-6774-493a-b9c3-242ab1b029b7}</ProjectGuid>
     <RootNamespace>CSES</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>LearningC</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -105,6 +106,8 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <CompileAs>CompileAsC</CompileAs>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Users\hollanjs\source\repos\LearningC\src\utils;C:\Users\hollanjs\source\repos\LearningC\src\cses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,51 +131,55 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="apple_division.c" />
-    <ClCompile Include="bit_strings.c" />
-    <ClCompile Include="chessboard_and_queens.c" />
-    <ClCompile Include="coin_piles.c" />
-    <ClCompile Include="convert.c" />
-    <ClCompile Include="creating_strings.c" />
-    <ClCompile Include="CSES.c" />
-    <ClCompile Include="digit_queries.c" />
-    <ClCompile Include="gray_code.c" />
-    <ClCompile Include="grid_paths.c" />
-    <ClCompile Include="increasing_array.c" />
-    <ClCompile Include="missing_num.c" />
-    <ClCompile Include="console_utils.c" />
-    <ClCompile Include="number_spiral.c" />
-    <ClCompile Include="palindrome_reorder.c" />
-    <ClCompile Include="permutations.c" />
-    <ClCompile Include="repetitions.c" />
-    <ClCompile Include="tower_of_hanoi.c" />
-    <ClCompile Include="trailing_zeros.c" />
-    <ClCompile Include="two_knights.c" />
-    <ClCompile Include="two_sets.c" />
-    <ClCompile Include="weird_algorithm.c" />
+    <ClCompile Include="cses\apple_division.c" />
+    <ClCompile Include="cses\bit_strings.c" />
+    <ClCompile Include="cses\chessboard_and_queens.c" />
+    <ClCompile Include="cses\coin_piles.c" />
+    <ClCompile Include="cses\creating_strings.c" />
+    <ClCompile Include="cses\digit_queries.c" />
+    <ClCompile Include="cses\gray_code.c" />
+    <ClCompile Include="cses\grid_paths.c" />
+    <ClCompile Include="cses\increasing_array.c" />
+    <ClCompile Include="cses\missing_num.c" />
+    <ClCompile Include="cses\number_spiral.c" />
+    <ClCompile Include="cses\palindrome_reorder.c" />
+    <ClCompile Include="cses\permutations.c" />
+    <ClCompile Include="cses\repetitions.c" />
+    <ClCompile Include="cses\tower_of_hanoi.c" />
+    <ClCompile Include="cses\trailing_zeros.c" />
+    <ClCompile Include="cses\two_knights.c" />
+    <ClCompile Include="cses\two_sets.c" />
+    <ClCompile Include="cses\weird_algorithm.c" />
+    <ClCompile Include="LearningC.c" />
+    <ClCompile Include="utils\cli\print.c" />
+    <ClCompile Include="utils\conv\distance.c" />
+    <ClCompile Include="utils\conv\temp.c" />
+    <ClCompile Include="utils\conv\volume.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="apple_division.h" />
-    <ClInclude Include="bit_strings.h" />
-    <ClInclude Include="chessboard_and_queens.h" />
-    <ClInclude Include="coin_piles.h" />
-    <ClInclude Include="convert.h" />
-    <ClInclude Include="creating_strings.h" />
-    <ClInclude Include="digit_queries.h" />
-    <ClInclude Include="gray_code.h" />
-    <ClInclude Include="grid_paths.h" />
-    <ClInclude Include="increasing_array.h" />
-    <ClInclude Include="missing_num.h" />
-    <ClInclude Include="console_utils.h" />
-    <ClInclude Include="number_spiral.h" />
-    <ClInclude Include="palindrome_reorder.h" />
-    <ClInclude Include="permutations.h" />
-    <ClInclude Include="repetitions.h" />
-    <ClInclude Include="tower_of_hanoi.h" />
-    <ClInclude Include="trailing_zeros.h" />
-    <ClInclude Include="two_knights.h" />
-    <ClInclude Include="two_sets.h" />
-    <ClInclude Include="weird_algorithm.h" />
+    <ClInclude Include="cses\apple_division.h" />
+    <ClInclude Include="cses\bit_strings.h" />
+    <ClInclude Include="cses\chessboard_and_queens.h" />
+    <ClInclude Include="cses\coin_piles.h" />
+    <ClInclude Include="cses\creating_strings.h" />
+    <ClInclude Include="cses\digit_queries.h" />
+    <ClInclude Include="cses\gray_code.h" />
+    <ClInclude Include="cses\grid_paths.h" />
+    <ClInclude Include="cses\increasing_array.h" />
+    <ClInclude Include="cses\missing_num.h" />
+    <ClInclude Include="cses\number_spiral.h" />
+    <ClInclude Include="cses\palindrome_reorder.h" />
+    <ClInclude Include="cses\permutations.h" />
+    <ClInclude Include="cses\repetitions.h" />
+    <ClInclude Include="cses\tower_of_hanoi.h" />
+    <ClInclude Include="cses\trailing_zeros.h" />
+    <ClInclude Include="cses\two_knights.h" />
+    <ClInclude Include="cses\two_sets.h" />
+    <ClInclude Include="cses\weird_algorithm.h" />
+    <ClInclude Include="utils\cli\print.h" />
+    <ClInclude Include="utils\conv\distance.h" />
+    <ClInclude Include="utils\conv\temp.h" />
+    <ClInclude Include="utils\conv\volume.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

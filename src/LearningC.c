@@ -5,18 +5,18 @@
 #include <string.h>
 #include <assert.h>
 
-#include "convert.h"
-#include "console_utils.h"
+#include "utils/conv/temp.h"
+#include "utils/cli/print.h"
 
 //Problem sets
-#include "weird_algorithm.h"
-#include "missing_num.h"
-#include "repetitions.h"
-#include "increasing_array.h"
-#include "permutations.h"
-#include "number_spiral.h"
-#include "two_knights.h"
-#include "two_sets.h"
+#include "cses/weird_algorithm.h"
+#include "cses/missing_num.h"
+#include "cses/repetitions.h"
+#include "cses/increasing_array.h"
+#include "cses/permutations.h"
+#include "cses/number_spiral.h"
+#include "cses/two_knights.h"
+#include "cses/two_sets.h"
 
 
 /*******************************************************************************************

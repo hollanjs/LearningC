@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\IntroductoryProblems">
+      <UniqueIdentifier>{8161a6a7-f1cd-4e57-b324-20254fbe186d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{e6110245-5148-44ce-9ab8-38b862377bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IntroductoryProblems">
+      <UniqueIdentifier>{734e4d05-1489-457f-bf47-055075ac68d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{2afd26b5-98e6-4c40-88c7-dcd21183d647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LearningC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\cli\print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\conv\temp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\apple_division.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\bit_strings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\chessboard_and_queens.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\coin_piles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\creating_strings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\digit_queries.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\gray_code.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\grid_paths.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\increasing_array.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\missing_num.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\number_spiral.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\palindrome_reorder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\permutations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\repetitions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\tower_of_hanoi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\trailing_zeros.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\two_knights.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\two_sets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cses\weird_algorithm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\conv\distance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\conv\volume.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\cli\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\conv\temp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\apple_division.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\bit_strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\chessboard_and_queens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\coin_piles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\creating_strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\digit_queries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\gray_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\grid_paths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\increasing_array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\missing_num.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\number_spiral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\palindrome_reorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\permutations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\repetitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\tower_of_hanoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\trailing_zeros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\two_knights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\two_sets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cses\weird_algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\conv\distance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\conv\volume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
