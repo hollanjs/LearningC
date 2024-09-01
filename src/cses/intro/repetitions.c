@@ -1,8 +1,11 @@
 #include <stdio.h>
-#include <string>
+#include <stdlib.h>
+#include <string.h>
 #include <assert.h>
 
 #include "repetitions.h"
+
+#define MAX_STRING 1000000
 
 
 /*************************************************************************************************
@@ -76,6 +79,47 @@ void run_repetitions() {
 
 	res = max_char_repition("TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT");
 	assert(res == 106);
+
+	//try generating long strings of same pattern...
+	//TODO: Turn creation of dynamic sized char arrays into a function that returns a pointer to start of array
+	char *long_string = (char*)malloc((MAX_STRING + 1) * sizeof(char));
+	if (long_string == NULL) {
+		fprintf(stderr, "REPETITIONS:: Memory allocation failed for long_string!\n");
+		return 1;
+	}
+
+	char dna_pattern[] = "ATGC";
+	int pattern_len = strlen(dna_pattern);
+	
+	for (int i = 0; i < MAX_STRING; i++) {
+		long_string[i] = dna_pattern[i % pattern_len];
+	}
+	long_string[MAX_STRING] = '\0';
+
+	res = max_char_repition(long_string);
+	assert(res == 1);
+
+	free(long_string);
+
+
+	//try generating long strings of same char...
+	char* same_char = (char*)malloc((MAX_STRING + 1) * sizeof(char));
+	if (same_char == NULL) {
+		fprintf(stderr, "REPETITIONS:: Memory allocation failed for long_string!\n");
+		return 1;
+	}
+
+	for (int i = 0; i < MAX_STRING; i++) {
+		same_char[i] = 'A';
+	}
+	same_char[MAX_STRING] = '\0';
+
+	res = max_char_repition(same_char);
+	assert(res == MAX_STRING);
+
+	free(same_char);
+
+
 
 	printf("All assertions passed!\n");
 }
