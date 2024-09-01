@@ -36,61 +36,61 @@
     <ClCompile Include="utils\conv\temp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\apple_division.c">
+    <ClCompile Include="cses\intro\apple_division.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\bit_strings.c">
+    <ClCompile Include="cses\intro\bit_strings.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\chessboard_and_queens.c">
+    <ClCompile Include="cses\intro\chessboard_and_queens.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\coin_piles.c">
+    <ClCompile Include="cses\intro\coin_piles.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\creating_strings.c">
+    <ClCompile Include="cses\intro\creating_strings.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\digit_queries.c">
+    <ClCompile Include="cses\intro\digit_queries.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\gray_code.c">
+    <ClCompile Include="cses\intro\gray_code.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\grid_paths.c">
+    <ClCompile Include="cses\intro\grid_paths.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\increasing_array.c">
+    <ClCompile Include="cses\intro\increasing_array.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\missing_num.c">
+    <ClCompile Include="cses\intro\missing_num.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\number_spiral.c">
+    <ClCompile Include="cses\intro\number_spiral.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\palindrome_reorder.c">
+    <ClCompile Include="cses\intro\palindrome_reorder.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\permutations.c">
+    <ClCompile Include="cses\intro\permutations.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\repetitions.c">
+    <ClCompile Include="cses\intro\repetitions.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\tower_of_hanoi.c">
+    <ClCompile Include="cses\intro\tower_of_hanoi.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\trailing_zeros.c">
+    <ClCompile Include="cses\intro\trailing_zeros.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\two_knights.c">
+    <ClCompile Include="cses\intro\two_knights.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\two_sets.c">
+    <ClCompile Include="cses\intro\two_sets.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cses\weird_algorithm.c">
+    <ClCompile Include="cses\intro\weird_algorithm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="utils\conv\distance.c">
@@ -107,61 +107,61 @@
     <ClInclude Include="utils\conv\temp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\apple_division.h">
+    <ClInclude Include="cses\intro\apple_division.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\bit_strings.h">
+    <ClInclude Include="cses\intro\bit_strings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\chessboard_and_queens.h">
+    <ClInclude Include="cses\intro\chessboard_and_queens.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\coin_piles.h">
+    <ClInclude Include="cses\intro\coin_piles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\creating_strings.h">
+    <ClInclude Include="cses\intro\creating_strings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\digit_queries.h">
+    <ClInclude Include="cses\intro\digit_queries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\gray_code.h">
+    <ClInclude Include="cses\intro\gray_code.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\grid_paths.h">
+    <ClInclude Include="cses\intro\grid_paths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\increasing_array.h">
+    <ClInclude Include="cses\intro\increasing_array.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\missing_num.h">
+    <ClInclude Include="cses\intro\missing_num.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\number_spiral.h">
+    <ClInclude Include="cses\intro\number_spiral.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\palindrome_reorder.h">
+    <ClInclude Include="cses\intro\palindrome_reorder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\permutations.h">
+    <ClInclude Include="cses\intro\permutations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\repetitions.h">
+    <ClInclude Include="cses\intro\repetitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\tower_of_hanoi.h">
+    <ClInclude Include="cses\intro\tower_of_hanoi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\trailing_zeros.h">
+    <ClInclude Include="cses\intro\trailing_zeros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\two_knights.h">
+    <ClInclude Include="cses\intro\two_knights.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\two_sets.h">
+    <ClInclude Include="cses\intro\two_sets.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cses\weird_algorithm.h">
+    <ClInclude Include="cses\intro\weird_algorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="utils\conv\distance.h">

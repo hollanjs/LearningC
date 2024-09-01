@@ -9,14 +9,14 @@
 #include "utils/cli/print.h"
 
 //Problem sets
-#include "cses/weird_algorithm.h"
-#include "cses/missing_num.h"
-#include "cses/repetitions.h"
-#include "cses/increasing_array.h"
-#include "cses/permutations.h"
-#include "cses/number_spiral.h"
-#include "cses/two_knights.h"
-#include "cses/two_sets.h"
+#include "cses/intro/weird_algorithm.h"
+#include "cses/intro/missing_num.h"
+#include "cses/intro/repetitions.h"
+#include "cses/intro/increasing_array.h"
+#include "cses/intro/permutations.h"
+#include "cses/intro/number_spiral.h"
+#include "cses/intro/two_knights.h"
+#include "cses/intro/two_sets.h"
 
 
 /*******************************************************************************************
@@ -32,14 +32,14 @@
 
 int main() {	
 	/*UTILITIES*/
-	test_temp_conversions();
+	//test_temp_conversions();
 
 	/*CSES PROBLEMS*/
-	//run_weird_algorithm();
-	//printf("\n\n*************************************************************\n\n");
+	run_weird_algorithm();
+	printf("\n\n*************************************************************\n\n");
 	
-	//run_missing_num();	
-	//printf("\n\n*************************************************************\n\n");
+	run_missing_num();	
+	printf("\n\n*************************************************************\n\n");
 
 	//run_repetitions();		/*Needs implementation*/
 	//printf("\n\n*************************************************************\n\n");

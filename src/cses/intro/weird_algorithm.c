@@ -35,7 +35,7 @@ void next_weird_number(int* num) {
 	*num = *num % 2 ? *num * 3 + 1 : *num / 2;
 }
 
-void weird_algorithm(int* num) {
+void weird_algorithm(int num) {
 	while (num != 1) {
 		printf("%d ", num);
 		next_weird_number(&num);
