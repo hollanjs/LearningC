@@ -54,7 +54,6 @@ int missing_num(int *numbers, int count) {
 void run_missing_num() {
 	int	i;
 	int result;
-	int *numbers;
 
 	//generate array size randomly of size 2 to 2x10^5
 	int max_array_size = 2 * pow(10, 5);
@@ -63,7 +62,8 @@ void run_missing_num() {
 	int array_size_plus_one = array_size + 1;
 
 	//use calloc to create array dynamically - remember to free later on;
-	numbers = (int*)calloc(array_size, sizeof(int));
+	int* numbers = NULL;
+	numbers = calloc(array_size, sizeof(int));
 	//print_array_with_message("numbers immediately after allocation", numbers, array_size);
 
 	if (numbers == NULL) {
@@ -93,4 +93,5 @@ void run_missing_num() {
 	printf("missing number was identified by algorithm as: %d\n", result);
 
 	free(numbers);
+	numbers = NULL;
 }

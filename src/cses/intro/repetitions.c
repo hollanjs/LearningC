@@ -103,7 +103,8 @@ void run_repetitions() {
 
 
 	//try generating long strings of same char...
-	char* same_char = (char*)malloc((MAX_STRING + 1) * sizeof(char));
+	char* same_char = NULL;
+	same_char = malloc((MAX_STRING + 1) * sizeof(char));
 	if (same_char == NULL) {
 		fprintf(stderr, "REPETITIONS:: Memory allocation failed for long_string!\n");
 		return 1;
@@ -118,6 +119,7 @@ void run_repetitions() {
 	assert(res == MAX_STRING);
 
 	free(same_char);
+	same_char = NULL;
 
 
 
