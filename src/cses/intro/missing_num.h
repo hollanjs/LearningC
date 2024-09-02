@@ -1,5 +1,5 @@
 #pragma once
 
-int missing_num(size_t count, int numbers[]);
+int missing_num(int *numbers, int count);
 
 void run_missing_num();

@@ -99,6 +99,9 @@
     <ClCompile Include="utils\conv\volume.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="utils\arr\arr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="utils\cli\print.h">
@@ -168,6 +171,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="utils\conv\volume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\arr\arr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

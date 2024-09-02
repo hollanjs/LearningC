@@ -152,6 +152,7 @@
     <ClCompile Include="cses\intro\two_sets.c" />
     <ClCompile Include="cses\intro\weird_algorithm.c" />
     <ClCompile Include="LearningC.c" />
+    <ClCompile Include="utils\arr\arr.c" />
     <ClCompile Include="utils\cli\print.c" />
     <ClCompile Include="utils\conv\distance.c" />
     <ClCompile Include="utils\conv\temp.c" />
@@ -177,6 +178,7 @@
     <ClInclude Include="cses\intro\two_knights.h" />
     <ClInclude Include="cses\intro\two_sets.h" />
     <ClInclude Include="cses\intro\weird_algorithm.h" />
+    <ClInclude Include="utils\arr\arr.h" />
     <ClInclude Include="utils\cli\print.h" />
     <ClInclude Include="utils\conv\distance.h" />
     <ClInclude Include="utils\conv\temp.h" />

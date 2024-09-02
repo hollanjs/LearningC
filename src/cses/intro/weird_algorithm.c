@@ -31,7 +31,7 @@
 
 *************************************************************************************************/
 
-void next_weird_number(int* num) {
+void next_weird_number(int *num) {
 	*num = *num % 2 ? *num * 3 + 1 : *num / 2;
 }
 
