@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 #include "increasing_array.h"
+#include "..\..\utils\arr\arr.h"
 
 
 /*************************************************************************************************
@@ -30,3 +32,23 @@
 
 **************************************************************************************************/
 
+
+
+int get_minimum_moves(int *arr) {
+	//IMPLEMENT
+}
+
+
+void run_increasing_array() {
+	int* num_array = new_random_intarray(5);
+	
+	//print for debugging
+	for (int i = 0; i < 5; i++) {
+		printf("%d", num_array[i]);
+	}
+	printf("\n");
+	
+	//DO THE THING WITH THE ARRAY!
+
+	free_array(num_array);
+}

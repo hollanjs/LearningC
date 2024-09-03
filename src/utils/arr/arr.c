@@ -6,6 +6,31 @@
 #include "arr.h"
 
 
+void free_array(int *arr) {
+	free(arr);
+	arr = NULL;
+}
+
+
+int* new_random_intarray(int size) {
+	int i;
+
+	int* numbers = NULL;
+	numbers = calloc(size, sizeof(int));
+
+	if (numbers == NULL) {
+		fprintf(stderr, "Memory allocation failed!\n");
+		return 1;
+	}
+
+	for (i = 0; i < size; i++) {
+		numbers[i] = i + 1;
+	}
+
+	return (numbers);
+}
+
+
 void remove_index(int index, int *arr, int size) {
 	if (size <= 0 || index < 0 || index >= size)
 		return;
