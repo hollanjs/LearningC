@@ -27,6 +27,8 @@ int* new_random_intarray(int size) {
 		numbers[i] = i + 1;
 	}
 
+	randomize_iarr(numbers, size);
+
 	return (numbers);
 }
 
