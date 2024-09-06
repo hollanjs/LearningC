@@ -32,25 +32,25 @@
 
 int main() 
 {	
-	/*UTILITIES*/
-	//test_temp_conversions();
+    /*UTILITIES*/
+    //test_temp_conversions();
 
-	/*CSES PROBLEMS*/
-	run_weird_algorithm();
-	
-	run_missing_num();	
+    /*CSES PROBLEMS*/
+    run_weird_algorithm();
+    
+    run_missing_num();	
 
-	run_repetitions();		/*complete todo's listed in C file*/
+    run_repetitions();		/*complete todo's listed in C file*/
 
-	run_increasing_array();
+    run_increasing_array();
 
-	//run_permutations();		/*Needs implementation*/
+    //run_permutations();		/*Needs implementation*/
 
-	//run_number_spiral();		/*Needs implementation*/
+    //run_number_spiral();		/*Needs implementation*/
 
-	//run_two_knights();		/*Needs implementation*/
+    //run_two_knights();		/*Needs implementation*/
 
-	//run_two_sets();			/*Needs implementation*/
+    //run_two_sets();			/*Needs implementation*/
 
-	return 0;
+    return 0;
 }
