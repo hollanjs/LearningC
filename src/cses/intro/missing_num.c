@@ -34,13 +34,17 @@
  *************************************************************************************************/
 
 
-int missing_num(int *numbers, int count) {
+int missing_num(int *numbers, int count) 
+{
 	bool exists;
 	int i, j;
-	for (i = 1; i <= count; i++) {
+	for (i = 1; i <= count; i++) 
+	{
 		exists = false;
-		for (j = 0; j < (count - 1); j++) {
-			if (numbers[j] == i) {
+		for (j = 0; j < (count - 1); j++) 
+		{
+			if (numbers[j] == i) 
+			{
 				exists = true;
 				break;
 			}
@@ -51,7 +55,9 @@ int missing_num(int *numbers, int count) {
 	}
 }
 
-void run_missing_num() {
+void run_missing_num() 
+{
+	printf("--------------------------  MISSING NUMBER  --------------------------\n\n");
 	int	i;
 	int result;
 
@@ -66,7 +72,8 @@ void run_missing_num() {
 	numbers = calloc(array_size, sizeof(int));
 	//print_array_with_message("numbers immediately after allocation", numbers, array_size);
 
-	if (numbers == NULL) {
+	if (numbers == NULL) 
+	{
 		fprintf(stderr, "Memory allocation failed!\n");
 		return 1;
 	}
@@ -75,7 +82,8 @@ void run_missing_num() {
 	printf("number of elements in array: %d\n", array_size);
 
 	//Initialize the array in order
-	for (i = 0; i < array_size; i++) {
+	for (i = 0; i < array_size; i++) 
+	{
 		numbers[i] = i + 1;
 	}
 	//print_array_with_message("numbers after initial seeding", numbers, array_size);
@@ -90,8 +98,10 @@ void run_missing_num() {
 
 	//Get missing number that was pulled from the array
 	result = missing_num(numbers, array_size);
-	printf("missing number was identified by algorithm as: %d\n", result);
+	printf("missing number identified by algorithm: %d\n", result);
 
 	free(numbers);
 	numbers = NULL;
+
+	printf("\n\n\n\n");
 }

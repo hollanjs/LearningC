@@ -30,34 +30,27 @@
  *******************************************************************************************/
 
 
-int main() {	
+int main() 
+{	
 	/*UTILITIES*/
 	//test_temp_conversions();
 
 	/*CSES PROBLEMS*/
-	//run_weird_algorithm();
-	//printf("\n\n*************************************************************\n\n");
+	run_weird_algorithm();
+	
+	run_missing_num();	
 
-	//run_missing_num();	
-	//printf("\n\n*************************************************************\n\n");
+	run_repetitions();		/*complete todo's listed in C file*/
 
-	//run_repetitions();		/*complete todo's listed in C file*/
-	//printf("\n\n*************************************************************\n\n");
-
-	run_increasing_array();	/*Needs implementation*/
-	printf("\n\n*************************************************************\n\n");
+	run_increasing_array();
 
 	//run_permutations();		/*Needs implementation*/
-	//printf("\n\n*************************************************************\n\n");
 
 	//run_number_spiral();		/*Needs implementation*/
-	//printf("\n\n*************************************************************\n\n");
 
 	//run_two_knights();		/*Needs implementation*/
-	//printf("\n\n*************************************************************\n\n");
 
 	//run_two_sets();			/*Needs implementation*/
-	//printf("\n\n*************************************************************\n\n");
 
 	return 0;
 }

@@ -32,17 +32,20 @@
 **************************************************************************************************/
 
 
-int max_char_repition(char line[]) {
+int max_char_repition(char line[]) 
+{
 	int i, j, k;
 
 	int max			= 0;
 	int char_count	= strlen(line);
 
-	for (i = 0; i < char_count; i++) {
+	for (i = 0; i < char_count; i++) 
+	{
 		if ((char_count - i) < max)
 			break;
 
-		for (j = i, k = 1; line[j] == line[i]; j++, k++) {
+		for (j = i, k = 1; line[j] == line[i]; j++, k++) 
+		{
 			if (max < k)
 				max++;
 		}
@@ -52,7 +55,10 @@ int max_char_repition(char line[]) {
 }
 
 
-void run_repetitions() {
+void run_repetitions() 
+{
+	printf("--------------------------  REPETITIONS  --------------------------\n\n");
+
 	int res;
 	printf("Running repetition assertions against faux DNA strings...\n");
 
@@ -83,7 +89,8 @@ void run_repetitions() {
 	//try generating long strings of same pattern...
 	//TODO: Turn creation of dynamic sized char arrays into a function that returns a pointer to start of array
 	char *long_string = (char*)malloc((MAX_STRING + 1) * sizeof(char));
-	if (long_string == NULL) {
+	if (long_string == NULL) 
+	{
 		fprintf(stderr, "REPETITIONS:: Memory allocation failed for long_string!\n");
 		return 1;
 	}
@@ -91,7 +98,8 @@ void run_repetitions() {
 	char dna_pattern[] = "ATGC";
 	int pattern_len = strlen(dna_pattern);
 	
-	for (int i = 0; i < MAX_STRING; i++) {
+	for (int i = 0; i < MAX_STRING; i++) 
+	{
 		long_string[i] = dna_pattern[i % pattern_len];
 	}
 	long_string[MAX_STRING] = '\0';
@@ -105,12 +113,14 @@ void run_repetitions() {
 	//try generating long strings of same char...
 	char* same_char = NULL;
 	same_char = malloc((MAX_STRING + 1) * sizeof(char));
-	if (same_char == NULL) {
+	if (same_char == NULL) 
+	{
 		fprintf(stderr, "REPETITIONS:: Memory allocation failed for long_string!\n");
 		return 1;
 	}
 
-	for (int i = 0; i < MAX_STRING; i++) {
+	for (int i = 0; i < MAX_STRING; i++) 
+	{
 		same_char[i] = 'A';
 	}
 	same_char[MAX_STRING] = '\0';
@@ -124,4 +134,5 @@ void run_repetitions() {
 
 
 	printf("All assertions passed!\n");
+	printf("\n\n\n\n");
 }

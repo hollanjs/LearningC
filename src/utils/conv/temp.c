@@ -4,31 +4,44 @@
 #define KELVIN_C_DELTA	273.15
 
 
-float fahrenheit_to_celsius(float temp) {
+float fahrenheit_to_celsius(float temp)
+{
 	return 5 * (temp - 32) / 9;
 }
 
-float celsius_to_fahrenheit(float temp) {
+
+float celsius_to_fahrenheit(float temp)
+{
 	return 32 + (temp * 9 / 5);
 }
 
-float kelvin_to_celsius(float temp) {
+
+float kelvin_to_celsius(float temp)
+{
 	return temp - KELVIN_C_DELTA;
 }
 
-float celsius_to_kelvin(float temp) {
+
+float celsius_to_kelvin(float temp)
+{
 	return KELVIN_C_DELTA + temp;
 }
 
-float kelvin_to_fahrenheit(float temp) {
+
+float kelvin_to_fahrenheit(float temp)
+{
 	return celsius_to_fahrenheit(kelvin_to_celsius(temp));
 }
 
-float fahrenheit_to_kelvin(float temp) {
+
+float fahrenheit_to_kelvin(float temp)
+{
 	return celsius_to_kelvin(fahrenheit_to_celsius(temp));
 }
 
-void test_temp_conversions() {
+
+void test_temp_conversions()
+{
 	float f, c, k;
 
 	f = 100;

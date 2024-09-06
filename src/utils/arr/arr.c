@@ -6,24 +6,28 @@
 #include "arr.h"
 
 
-void free_array(int *arr) {
+void free_array(int *arr) 
+{
 	free(arr);
 	arr = NULL;
 }
 
-
-int* new_random_intarray(int size) {
+ 
+int* new_random_intarray(int size) 
+{
 	int i;
 
 	int* numbers = NULL;
 	numbers = calloc(size, sizeof(int));
 
-	if (numbers == NULL) {
+	if (numbers == NULL) 
+	{
 		fprintf(stderr, "Memory allocation failed!\n");
 		return 1;
 	}
 
-	for (i = 0; i < size; i++) {
+	for (i = 0; i < size; i++) 
+	{
 		numbers[i] = i + 1;
 	}
 
@@ -33,7 +37,8 @@ int* new_random_intarray(int size) {
 }
 
 
-void remove_index(int index, int *arr, int size) {
+void remove_index(int index, int *arr, int size) 
+{
 	if (size <= 0 || index < 0 || index >= size)
 		return;
 
@@ -41,7 +46,8 @@ void remove_index(int index, int *arr, int size) {
 }
 
 
-void remove_random_index(int *arr, int size) {
+void remove_random_index(int *arr, int size) 
+{
 	if (size <= 0)
 		return;
 
@@ -56,11 +62,14 @@ void remove_random_index(int *arr, int size) {
 }
 
 
-void randomize_iarr(int *arr, int size) {
+void randomize_iarr(int *arr, int size) 
+{
 	int i, j, t;
 
 	srand(time(NULL));
-	for (i = 0; i < size; i++) {
+
+	for (i = 0; i < size; i++) 
+	{
 		j = rand() % (size - i) + i;
 		t = arr[j];
 		arr[j] = arr[i];
