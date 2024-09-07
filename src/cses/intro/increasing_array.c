@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-#include "increasing_array.h"
 #include "..\..\utils\arr\arr.h"
+#include "..\..\utils\cli\print.h"
+
+#include "increasing_array.h"
+
 
 
 /*************************************************************************************************
@@ -55,7 +58,7 @@ int get_minimum_moves(int *arr, int size)
 		else 
 		{
 			curr_max = arr[i];
-			printf("Max Updated: %2d;    Number increased - no need to perform work...\n", curr_max, arr[i], delta, moves);
+			printf("Max Updated: %2d;    Number increased - no need to perform work...\n", curr_max);
 		}
 	}
 
@@ -72,11 +75,8 @@ void run_increasing_array()
 	int *num_array = new_random_intarray(array_size);
 	
 	//print for debugging
-	printf("Array to process: [ %d", num_array[0]);
-	for (i = 1; i < array_size; i++) {
-		printf(", %d", num_array[i]);
-	}
-	printf(" ]\n");
+	print_array_with_message("Array to process:", num_array, array_size);
+	
 	
 	//DO THE THING WITH THE ARRAY!
 	moves = get_minimum_moves(num_array, array_size);

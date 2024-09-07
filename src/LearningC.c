@@ -37,14 +37,14 @@ int main()
 
     /*CSES PROBLEMS*/
     run_weird_algorithm();
-    
+
     run_missing_num();	
 
     run_repetitions();		/*complete todo's listed in C file*/
 
-    run_increasing_array();
+	run_increasing_array();
 
-    //run_permutations();		/*Needs implementation*/
+    run_permutations();		
 
     //run_number_spiral();		/*Needs implementation*/
 

@@ -34,7 +34,7 @@
  *************************************************************************************************/
 
 
-int missing_num(int *numbers, int count) 
+int missing_num(int numbers[], int count)
 {
     bool exists;
     int i, j;
@@ -69,28 +69,10 @@ void run_missing_num()
 
     //use calloc to create array dynamically - remember to free later on;
     int* numbers = NULL;
-    numbers = calloc(array_size, sizeof(int));
-    //print_array_with_message("numbers immediately after allocation", numbers, array_size);
-
-    if (numbers == NULL) 
-    {
-        fprintf(stderr, "Memory allocation failed!\n");
-        return 1;
-    }
 
     //Generate the array for testing the missing_num function
+	numbers = new_random_intarray(array_size);
     printf("number of elements in array: %d\n", array_size);
-
-    //Initialize the array in order
-    for (i = 0; i < array_size; i++) 
-    {
-        numbers[i] = i + 1;
-    }
-    //print_array_with_message("numbers after initial seeding", numbers, array_size);
-
-    //Randomize array
-    randomize_iarr(numbers, array_size);
-    //print_array_with_message("numbers after randomization", numbers, array_size);
 
     //Remove random index after randomization
     remove_random_index(numbers, array_size);
@@ -100,8 +82,7 @@ void run_missing_num()
     result = missing_num(numbers, array_size);
     printf("missing number identified by algorithm: %d\n", result);
 
-    free(numbers);
-    numbers = NULL;
+	free_array(numbers);
 
     printf("\n\n\n\n");
 }
