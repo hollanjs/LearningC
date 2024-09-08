@@ -59,27 +59,27 @@
 
 When looking at row 1 values, on a 10x10 spiral, the value of every ODD column is that column's index squared
 -------------------------------------------------------------------------------------------------------------
-index			   1     2     3     4      5      6      7      8      9      10
+index		   1     2     3     4      5      6      7      8      9      10
 index is odd	   Y     N     Y     N      Y      N      Y      N      Y      N 
-squared           1x1         3x3		    5x5           7x7           9x9
+squared           1x1         3x3    	   5x5           7x7           9x9
                    |           |            |             |             |
                    v           v            v             v             v
-value			|  1  |  2  |  9  |  10  |  25  |  26  |  49  |  50  |  81  |  82  |   
+value		|  1  |  2  |  9  |  10  |  25  |  26  |  49  |  50  |  81  |  82  |   
 -------------------------------------------------------------------------------------------------------------
 
 equally, when looking at column 1 values, on a 10x10 spiral, the value of every EVEN column index is that rows index squared
 -------------------------------------------------------------------------------------------------------------
 index	index is even	squared		value
-1			N						 1
-2			Y			  2x2   -->  4
-3			N						 5
-4			Y			  4x4   -->  16
-5			N						 17
-6			Y			  6x6   -->  36
-7			N						 37
-8			Y			  8x8   -->  64
-9			N						 65
-10			Y			 10x10  -->  100
+1	N				1
+2	Y		2x2   	-->  	4
+3	N				5
+4	Y		4x4   	-->  	16
+5	N				17
+6	Y		6x6   	-->  	36
+7	N				37
+8	Y		8x8   	-->  	64
+9	N				65
+10	Y		10x10  	-->  	100
 -------------------------------------------------------------------------------------------------------------
 
 If you look closely, you see the next numbers over or down appear to incredment by 1, because these squared values
@@ -90,18 +90,18 @@ we can use these squares as starting points to start closer to the number we're 
 However, there is another pivot around where y = x, in that is where the numbers make a right turn and got from N/S <-> E/W. This is
 the reason we need to determine if Y > X or vice versa.
 
-	  1   2   3   4   5
-	---------------------
+      1   2   3   4   5
+    ---------------------
 1   | > | v | > | v | > ... and so on...
-	---------------------
+    ---------------------
 2   | v | < | ^ | v | ^ |
-	---------------------
+    ---------------------
 3   | > | > | ^ | v | ^ |
-	---------------------
+    ---------------------
 4   | v | < | < | < | ^ |
-	---------------------
+    ---------------------
 5   | > | > | > | > | ^ |
-	---------------------
+    ---------------------
 
 so if Y is greater than X, we know that values will be incrementing +-1 as we move indexes left/right within the bounds of  1-> X on that row.
 vice versa for X being greater than Y. We know that values will be incrementing +-1 as we move indexes up/down within the bounds of 1 -> Y on that col.
@@ -110,31 +110,31 @@ after working it out, you end up with something like:
 
 Y > X
 | Y is even?	y^2 - x + 1
-| Y is odd?		(y - 1)^2 + x
+| Y is odd?	(y - 1)^2 + x
 
 Y = X
 | Y is even?	y^2 - x + 1
-| Y is odd?		(y - 1)^2 + x
+| Y is odd?	(y - 1)^2 + x
 
 Y < X
 | X is even?	(x - 1)^2 + y
-| X is odd?		x^2 - (y -1)		(spiral_algorithm_three())
+| X is odd?	x^2 - (y -1)		(spiral_algorithm_three())
 
 
 You can see that Y > X and Y = X are the same, so we can combine those into:
 Y >= X
-| Y is even?	y^2 - x + 1			(spiral_algorithm_two())
-| Y is odd?		(y - 1)^2 + x
+| Y is even?	y^2 - x + 1		(spiral_algorithm_two())
+| Y is odd?	(y - 1)^2 + x
 
 
 And you might also see that the following are the same, but the Y and X are flipped in the operations:
-Y >= X | Y is odd?		(y - 1)^2 + x
-Y <  X | X is even?		(x - 1)^2 + y
+Y >= X | Y is odd?	(y - 1)^2 + x
+Y <  X | X is even?	(x - 1)^2 + y
 
 so we can combine them together as well into a function, then swap Y with X based on which is greater.	(see spiral_algorithm_one())
 
 
-See below code for implementation details and logic on how and when to call the algorithms based on Y and X values.	 (see calculate_numbers())
+See below code for implementation details and logic on how and when to call the algorithms based on Y and X values.  (see calculate_numbers())
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////////////////////////////////////////////
 ************************************************************************************************************************************************/
@@ -197,12 +197,12 @@ void run_number_spiral()
 
 	/*
 		Input:		3
-					2 3
-					1 1
-					4 2
+				2 3
+				1 1
+				4 2
 		Output :	8
-					1
-					15
+				1
+				15
 	*/
 
 	int test_count = 10;
