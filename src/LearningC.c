@@ -1,3 +1,4 @@
+//Standard libraries
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -5,6 +6,7 @@
 #include <string.h>
 #include <assert.h>
 
+//Utilities
 #include "utils/conv/temp.h"
 #include "utils/cli/print.h"
 
@@ -17,6 +19,17 @@
 #include "cses/intro/number_spiral.h"
 #include "cses/intro/two_knights.h"
 #include "cses/intro/two_sets.h"
+#include "cses/intro/bit_strings.h"
+#include "cses/intro/trailing_zeros.h"
+#include "cses/intro/coin_piles.h"
+#include "cses/intro/palindrome_reorder.h"
+#include "cses/intro/gray_code.h"
+#include "cses/intro/tower_of_hanoi.h"
+#include "cses/intro/creating_strings.h"
+#include "cses/intro/apple_division.h"
+#include "cses/intro/chessboard_and_queens.h"
+#include "cses/intro/digit_queries.h"
+#include "cses/intro/grid_paths.h"
 
 
 /*******************************************************************************************
@@ -35,22 +48,26 @@ int main()
     /*UTILITIES*/
     //test_temp_conversions();
 
-    /*CSES PROBLEMS*/
-    run_weird_algorithm();
-
-    run_missing_num();	
-
-    run_repetitions();		/*complete todo's listed in C file*/
-
-	run_increasing_array();
-
-    run_permutations();		
-
-    //run_number_spiral();		/*Needs implementation*/
-
-    //run_two_knights();		/*Needs implementation*/
-
-    //run_two_sets();			/*Needs implementation*/
+    /*******************  CSES PROBLEMS  *******************/
+	//run_weird_algorithm();
+	//run_missing_num();	
+	//run_repetitions();			/*complete todo's listed in C file*/
+	//run_increasing_array();
+	//run_permutations();		
+	run_number_spiral();		
+	//run_two_knights();			/*Needs implementation*/
+    //run_two_sets();				/*Needs implementation*/
+	//run_bit_strings();			/*Needs implementation*/
+	//run_trailing_zeros();			/*Needs implementation*/
+	//run_coin_piles();				/*Needs implementation*/
+	//run_palindrome_reorder();		/*Needs implementation*/
+	//run_gray_code();				/*Needs implementation*/
+	//run_tower_of_hanoi();			/*Needs implementation*/
+	//run_creating_strings();		/*Needs implementation*/
+	//run_apple_division();			/*Needs implementation*/
+	//run_chessboard_and_queens();	/*Needs implementation*/
+	//run_digit_queries();			/*Needs implementation*/
+	//run_grid_paths();				/*Needs implementation*/
 
     return 0;
 }
