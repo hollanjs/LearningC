@@ -9,6 +9,7 @@
 //Utilities
 #include "utils/conv/temp.h"
 #include "utils/cli/print.h"
+#include "utils/arr/test_iarr.h"
 
 //Problem sets
 #include "cses/intro/weird_algorithm.h"
@@ -45,17 +46,27 @@
 
 int main() 
 {	
-    /*UTILITIES*/
+	/*********************  UTILITIES  *********************/
+	// TO-DO:
+	// [ ] complete iarr function suggestions
+	
     //test_temp_conversions();
+	run_iarr_tests();
+
 
     /*******************  CSES PROBLEMS  *******************/
+	// TO-DO:
+	// [ ] cutover CSES problems to use new iarr type
+	// [ ] repetitions - line 90 - create carr version of iarr to assist
+	//     with dynamically creating char arrays
+
 	run_weird_algorithm();
 	run_missing_num();	
-	run_repetitions();			/*complete todo's listed in C file*/
+	run_repetitions();				
 	run_increasing_array();
 	run_permutations();		
 	run_number_spiral();		
-	//run_two_knights();			/*Needs implementation*/
+	//run_two_knights();			/*Hold - learn combinatorics*/
     //run_two_sets();				/*Needs implementation*/
 	//run_bit_strings();			/*Needs implementation*/
 	//run_trailing_zeros();			/*Needs implementation*/
