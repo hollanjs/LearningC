@@ -5,7 +5,6 @@
 
 #include "repetitions.h"
 
-#define MAX_STRING 1000000
 
 
 /*************************************************************************************************
@@ -130,7 +129,6 @@ void run_repetitions()
 
     free(same_char);
     same_char = NULL;
-
 
 
     printf("All assertions passed!\n");

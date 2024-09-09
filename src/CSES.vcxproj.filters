@@ -30,10 +30,10 @@
     <ClCompile Include="LearningC.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils\cli\print.c">
+    <ClCompile Include="utils\print.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils\conv\temp.c">
+    <ClCompile Include="utils\temp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="cses\intro\apple_division.c">
@@ -93,24 +93,27 @@
     <ClCompile Include="cses\intro\weird_algorithm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils\conv\distance.c">
+    <ClCompile Include="utils\distance.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils\conv\volume.c">
+    <ClCompile Include="utils\volume.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils\arr\arr.c">
+    <ClCompile Include="utils\arr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils\arr\test_iarr.c">
+    <ClCompile Include="utils\test_iarr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\random.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="utils\cli\print.h">
+    <ClInclude Include="utils\print.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils\conv\temp.h">
+    <ClInclude Include="utils\temp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="cses\intro\apple_division.h">
@@ -170,22 +173,25 @@
     <ClInclude Include="cses\intro\weird_algorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils\conv\distance.h">
+    <ClInclude Include="utils\distance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils\conv\volume.h">
+    <ClInclude Include="utils\volume.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils\arr\arr.h">
+    <ClInclude Include="utils\arr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils\arr\test_iarr.h">
+    <ClInclude Include="utils\test_iarr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="cses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="myutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\random.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

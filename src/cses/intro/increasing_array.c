@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-#include "..\..\utils\arr\arr.h"
-#include "..\..\utils\cli\print.h"
+#include "..\..\utils\arr.h"
+#include "..\..\utils\print.h"
 
 #include "increasing_array.h"
-
 
 
 /*************************************************************************************************

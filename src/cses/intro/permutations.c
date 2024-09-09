@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#include "..\..\utils\arr\arr.h"
-#include "..\..\utils\cli\print.h"
+#include "..\..\utils\arr.h"
+#include "..\..\utils\print.h"
 
 #include "permutations.h"
 
@@ -131,7 +131,7 @@ void run_permutations()
 
 	array_size = 12;
 
-	iarr num_array = new_iarr(array_size);
+	iarr num_array = new_sequential_iarr(1, array_size, 1);
 	print_array_with_message("Original array:", num_array.array, num_array.length);
 
 	beautiful_array(num_array);

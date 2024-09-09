@@ -5,9 +5,11 @@
 #include <string.h>
 #include <stdbool.h>
 
+#include "..\..\utils\print.h"
+#include "..\..\utils\arr.h"
+#include "..\..\utils\random.h"
+
 #include "missing_num.h"
-#include "..\..\utils\cli\print.h"
-#include "..\..\utils\arr\arr.h"
 
 /*************************************************************************************************
 
@@ -58,14 +60,14 @@ int missing_num(int numbers[], int count)
 void run_missing_num() 
 {
     printf("--------------------------  MISSING NUMBER  --------------------------\n\n");
-    int	i;
+    //int	i;
     int result;
 
     //generate array size randomly of size 2 to 2x10^5
-    int max_array_size = 2 * pow(10, 5);
     int min_array_size = 2;
-    int array_size = rand() % (max_array_size - min_array_size) + min_array_size;
-    int array_size_plus_one = array_size + 1;
+    int max_array_size = 2 * pow(10, 5);
+	int array_size = new_random(min_array_size, max_array_size);
+    //int array_size_plus_one = array_size + 1;
 
 
 	/***********************************************************************************

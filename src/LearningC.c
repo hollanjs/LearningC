@@ -7,10 +7,31 @@
 #include <assert.h>
 
 //Utilities
-#include "myutils.h"
+#include "utils/temp.h"
+#include "utils/print.h"
+#include "utils/test_iarr.h"
 
-//Problem sets
-#include "cses.h"
+/////// Problem sets
+//		CSES
+#include "cses/intro/weird_algorithm.h"
+#include "cses/intro/missing_num.h"
+#include "cses/intro/repetitions.h"
+#include "cses/intro/increasing_array.h"
+#include "cses/intro/permutations.h"
+#include "cses/intro/number_spiral.h"
+#include "cses/intro/two_knights.h"
+#include "cses/intro/two_sets.h"
+#include "cses/intro/bit_strings.h"
+#include "cses/intro/trailing_zeros.h"
+#include "cses/intro/coin_piles.h"
+#include "cses/intro/palindrome_reorder.h"
+#include "cses/intro/gray_code.h"
+#include "cses/intro/tower_of_hanoi.h"
+#include "cses/intro/creating_strings.h"
+#include "cses/intro/apple_division.h"
+#include "cses/intro/chessboard_and_queens.h"
+#include "cses/intro/digit_queries.h"
+#include "cses/intro/grid_paths.h"
 // add github problems: https://github.com/EbookFoundation/free-programming-books/blob/main/more/problem-sets-competitive-programming.md
 // another problem set: http://hspc.csce.uark.edu/index.php/general-information/practice-problem-sets/
 // harvard problem set: https://cs50.harvard.edu/college/2021/fall/psets/
