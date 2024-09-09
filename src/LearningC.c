@@ -11,6 +11,9 @@
 
 //Problem sets
 #include "cses.h"
+// add github problems: https://github.com/EbookFoundation/free-programming-books/blob/main/more/problem-sets-competitive-programming.md
+// another problem set: http://hspc.csce.uark.edu/index.php/general-information/practice-problem-sets/
+// harvard problem set: https://cs50.harvard.edu/college/2021/fall/psets/
 
 
 int main() 
