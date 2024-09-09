@@ -160,6 +160,7 @@
     <ClCompile Include="utils\conv\volume.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cses.h" />
     <ClInclude Include="cses\intro\apple_division.h" />
     <ClInclude Include="cses\intro\bit_strings.h" />
     <ClInclude Include="cses\intro\chessboard_and_queens.h" />
@@ -179,6 +180,7 @@
     <ClInclude Include="cses\intro\two_knights.h" />
     <ClInclude Include="cses\intro\two_sets.h" />
     <ClInclude Include="cses\intro\weird_algorithm.h" />
+    <ClInclude Include="myutils.h" />
     <ClInclude Include="utils\arr\arr.h" />
     <ClInclude Include="utils\arr\test_iarr.h" />
     <ClInclude Include="utils\cli\print.h" />

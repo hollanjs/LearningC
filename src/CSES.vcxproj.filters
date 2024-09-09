@@ -182,5 +182,11 @@
     <ClInclude Include="utils\arr\test_iarr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="cses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
