@@ -43,7 +43,7 @@ int main()
 	
 
 	run_weird_algorithm();
-	run_missing_num();	
+	run_missing_num();				/*Update - refactor to use iarr*/
 	run_repetitions();				
 	run_increasing_array();
 	run_permutations();		

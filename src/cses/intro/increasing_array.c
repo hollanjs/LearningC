@@ -37,27 +37,27 @@
 
 
 
-int get_minimum_moves(int *arr, int size) 
+int get_minimum_moves(iarr arr)
 {
 	int i, moves, curr_max, delta;
 
 	moves = 0;
-	curr_max = arr[0];
+	curr_max = arr.array[0];
 	printf("Starting Max:       %d\n\n", curr_max);
 
-	for (i = 1; i < size; i++) 
+	for (i = 1; i < arr.length; i++)
 	{
 		delta = 0;
 
-		if (arr[i] < curr_max) 
+		if (arr.array[i] < curr_max)
 		{
-			delta = curr_max - arr[i];
+			delta = curr_max - arr.array[i];
 			moves += delta;
-			printf("Current Max: %2d;    Next Value: %2d;    Delta: %2d;    Total Moves: %3d\n", curr_max, arr[i], delta, moves);
+			printf("Current Max: %2d;    Next Value: %2d;    Delta: %2d;    Total Moves: %3d\n", curr_max, arr.array[i], delta, moves);
 		}
 		else 
 		{
-			curr_max = arr[i];
+			curr_max = arr.array[i];
 			printf("Max Updated: %2d;    Number increased - no need to perform work...\n", curr_max);
 		}
 	}
@@ -69,20 +69,19 @@ int get_minimum_moves(int *arr, int size)
 void run_increasing_array() 
 {
 	printf("--------------------------  INCREASING ARRAY  --------------------------\n\n");
-	int i, moves;
+	int moves;
 
-	int array_size = 15;
-	int *num_array = new_random_intarray(array_size);
+	iarr num_array = new_random_iarr(15);
 	
 	//print for debugging
-	print_array_with_message("Array to process:", num_array, array_size);
-	
+	print_array_with_message("Array to process:", num_array.array, num_array.length);
 	
 	//DO THE THING WITH THE ARRAY!
-	moves = get_minimum_moves(num_array, array_size);
+	moves = get_minimum_moves(num_array);
 	printf("\nMoves required:     %d\n", moves);
 
-	free_array(num_array);
+	//free_array(num_array);
+	free_iarr(num_array);
 
 	printf("\n\n\n\n");
 }

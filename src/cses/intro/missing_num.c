@@ -67,6 +67,12 @@ void run_missing_num()
     int array_size = rand() % (max_array_size - min_array_size) + min_array_size;
     int array_size_plus_one = array_size + 1;
 
+
+	/***********************************************************************************
+	* 
+	*   [ ] figure out best way to use new iarr for this
+	* 
+	*/
     //use calloc to create array dynamically - remember to free later on;
     int* numbers = NULL;
 

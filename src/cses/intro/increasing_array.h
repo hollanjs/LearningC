@@ -1,5 +1,6 @@
 #pragma once
 
-int get_minimum_moves(int* arr, int size);
+#include "..\..\utils\arr\arr.h"
 
+int get_minimum_moves(iarr arr);
 void run_increasing_array();
