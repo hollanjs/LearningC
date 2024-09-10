@@ -37,8 +37,8 @@
 **************************************************************************************************/
 
 
-//void make_segment_beautiful(int arr[], int start_index, int array_size)
-void make_segment_beautiful(iarr arr, int start_index)
+void 
+make_segment_beautiful(iarr arr, int start_index)
 {
 	/********************** GOAL **********************
 	*
@@ -90,8 +90,9 @@ void make_segment_beautiful(iarr arr, int start_index)
 	}
 }
 
-//void beautiful_array(int arr[], int size) 
-void beautiful_array(iarr arr)
+
+void 
+beautiful_array(iarr arr)
 {
 	int beautiful_buffer = 5;
 	// Every array where size GE 5 has a solution
@@ -122,7 +123,8 @@ void beautiful_array(iarr arr)
 }
 
 
-void run_permutations() 
+void 
+run_permutations() 
 {
 	printf("--------------------------  PERMUTATIONS  --------------------------\n\n");
 

@@ -57,6 +57,7 @@ int main()
 	 * 
 	 *	TO-DO:
 	 *		[ ] cutover CSES problems to use new iarr type
+	 *		[ ] Number spiral - line 217 - create loop like problem/solution/assertion
 	 *		[ ] repetitions - line 90 - create carr version of iarr to assist
 	 *			with dynamically creating char arrays
 	 *

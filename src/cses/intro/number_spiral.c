@@ -140,23 +140,27 @@ See below code for implementation details and logic on how and when to call the 
 ************************************************************************************************************************************************/
 
 
-int spiral_algorithm_one(int a, int b)
+int 
+spiral_algorithm_one(int a, int b)
 {
 	return (a - 1) * (a - 1) + b;
 }
 
-int spiral_algorithm_two(int a, int b)
+int 
+spiral_algorithm_two(int a, int b)
 {
 	return a * a - b + 1;
 }
 
-int spiral_algorithm_three(int a, int b)
+int 
+spiral_algorithm_three(int a, int b)
 {
 	return b * b - (a - 1);
 }
 
 
-int calculate_number(int y, int x)
+int 
+calculate_number(int y, int x)
 {
 	// root of spiral is always 1
 	if (y == 1 && x == 1)
@@ -179,7 +183,8 @@ int calculate_number(int y, int x)
 }
 
 
-void find_numbers_in_spiral(int num_tests, int coordinates[][AXIS])
+void 
+find_numbers_in_spiral(int num_tests, int coordinates[][AXIS])
 {
 	int res;
 
@@ -191,7 +196,8 @@ void find_numbers_in_spiral(int num_tests, int coordinates[][AXIS])
 }
 
 
-void run_number_spiral() 
+void 
+run_number_spiral() 
 {
 	printf("--------------------------  PERMUTATIONS  --------------------------\n\n");
 
@@ -206,7 +212,11 @@ void run_number_spiral()
 	*/
 
 	int test_count = 10;
-	int test_coords[][AXIS] = { 
+
+	// TO DO
+	//    [ ] Create a problem set hash like table to pass to loop with input and output for assertions
+	int test_coords[][AXIS] = 
+	{ 
 		{ 2, 3 },	// 8
 		{ 1, 1 },	// 1
 		{ 4, 2 },	// 15 

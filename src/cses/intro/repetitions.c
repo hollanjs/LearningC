@@ -31,7 +31,8 @@
 **************************************************************************************************/
 
 
-int max_char_repition(char line[]) 
+int 
+max_char_repition(char line[]) 
 {
     int i, j, k;
 
@@ -54,7 +55,8 @@ int max_char_repition(char line[])
 }
 
 
-void run_repetitions() 
+void 
+run_repetitions() 
 {
     printf("--------------------------  REPETITIONS  --------------------------\n\n");
 

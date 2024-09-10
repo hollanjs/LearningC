@@ -36,7 +36,8 @@
  *************************************************************************************************/
 
 
-int missing_num(int numbers[], int count)
+int 
+missing_num(int numbers[], int count)
 {
     bool exists;
     int i, j;
@@ -57,7 +58,8 @@ int missing_num(int numbers[], int count)
     }
 }
 
-void run_missing_num() 
+void 
+run_missing_num() 
 {
     printf("--------------------------  MISSING NUMBER  --------------------------\n\n");
     //int	i;

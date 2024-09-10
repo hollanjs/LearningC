@@ -36,7 +36,8 @@
 
 
 
-int get_minimum_moves(iarr arr)
+int 
+get_minimum_moves(iarr arr)
 {
 	int i, moves, curr_max, delta;
 
@@ -65,7 +66,8 @@ int get_minimum_moves(iarr arr)
 }
 
 
-void run_increasing_array() 
+void 
+run_increasing_array() 
 {
 	printf("--------------------------  INCREASING ARRAY  --------------------------\n\n");
 	int moves;

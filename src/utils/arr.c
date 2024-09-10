@@ -6,13 +6,15 @@
 #include "arr.h"
 
 
-int get_arr_size(int start, int max, int step)
+int 
+get_arr_size(int start, int max, int step)
 {
 	return (max - start) / step + 1;
 }
 
 
-void swap_indexes(int arr[], int this_index, int with_that_index)
+void 
+swap_indexes(int arr[], int this_index, int with_that_index)
 {
 	int temp;
 
@@ -61,7 +63,8 @@ void swap_indexes(int arr[], int this_index, int with_that_index)
 // 
 // see void * https://stackoverflow.com/questions/11626786/what-does-void-mean-and-how-to-use-it
 
-iarr new_iarr(int size)
+iarr 
+new_iarr(int size)
 {
 	iarr array;
 
@@ -73,7 +76,8 @@ iarr new_iarr(int size)
 }
 
 
-iarr new_sequential_iarr(int start, int max, int step)
+iarr 
+new_sequential_iarr(int start, int max, int step)
 {
 	int i, j, size;
 
@@ -96,7 +100,8 @@ iarr new_sequential_iarr(int start, int max, int step)
 }
 
 
-iarr new_random_iarr(int size)
+iarr 
+new_random_iarr(int size)
 {
 	iarr arr = new_sequential_iarr(1, size, 1);
 	randomize_iarr(arr);
@@ -104,7 +109,8 @@ iarr new_random_iarr(int size)
 }
 
 
-void randomize_iarr(iarr arr)
+void 
+randomize_iarr(iarr arr)
 {
 	int i, j, t;
 
@@ -118,7 +124,8 @@ void randomize_iarr(iarr arr)
 }
 
 
-void print_iarr(iarr arr)
+void 
+print_iarr(iarr arr)
 {
 	printf("\n\tsize: %zu\n", arr.length);
 	printf("\tarray: [ %d", arr.array[0]);
@@ -129,7 +136,8 @@ void print_iarr(iarr arr)
 }
 
 
-void free_iarr(iarr arr)
+void 
+free_iarr(iarr arr)
 {
 	free(arr.array);
 	arr.array = NULL;
@@ -138,7 +146,8 @@ void free_iarr(iarr arr)
 ////////IMPLEMENT FOR IARR
 
 
-//void remove_index(int index, int* arr, int size)
+//void 
+//remove_index(int index, int* arr, int size)
 //{
 //	// should update .length as well...
 //	if (size <= 0 || index < 0 || index >= size)
@@ -149,7 +158,8 @@ void free_iarr(iarr arr)
 //}
 
 
-//void remove_random_index(int* arr, int size)
+//void 
+//remove_random_index(int* arr, int size)
 //{
 //	if (size <= 0)
 //		return;
@@ -168,14 +178,16 @@ void free_iarr(iarr arr)
 
 /* regular integer array utility functions */
 
-void free_array(int* arr)
+void 
+free_array(int* arr)
 {
 	free(arr);
 	arr = NULL;
 }
 
 
-int* new_sequential_int_array(int start, int max, int step)
+int* 
+new_sequential_int_array(int start, int max, int step)
 {
 	int i, j, size;
 
@@ -199,7 +211,8 @@ int* new_sequential_int_array(int start, int max, int step)
 }
 
 
-int* new_random_intarray(int size)
+int* 
+new_random_intarray(int size)
 {
 	int* numbers = new_sequential_int_array(1, size, 1);
 
@@ -209,7 +222,8 @@ int* new_random_intarray(int size)
 }
 
 
-void remove_index(int index, int* arr, int size)
+void 
+remove_index(int index, int* arr, int size)
 {
 	if (size <= 0 || index < 0 || index >= size)
 		return;
@@ -218,7 +232,8 @@ void remove_index(int index, int* arr, int size)
 }
 
 
-void remove_random_index(int* arr, int size)
+void 
+remove_random_index(int* arr, int size)
 {
 	if (size <= 0)
 		return;
@@ -234,7 +249,8 @@ void remove_random_index(int* arr, int size)
 }
 
 
-void randomize_array(int* arr, int size)
+void 
+randomize_array(int* arr, int size)
 {
 	int i, j, t;
 
