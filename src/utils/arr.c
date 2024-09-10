@@ -58,7 +58,8 @@ void swap_indexes(int arr[], int this_index, int with_that_index)
 //		iarr.action(leave, 10);
 //		iarr.action(add, 5);
 //		iarr.action(remove, 6);
-
+// 
+// see void * https://stackoverflow.com/questions/11626786/what-does-void-mean-and-how-to-use-it
 
 iarr new_iarr(int size)
 {
